@@ -1,0 +1,68 @@
+/* PT Mono Font */
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9AnC8zM_HxEck.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 28px;
+	background-color: #190d07;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+img {
+	max-width: 100%;
+	box-sizing: initial;
+}
+blockquote{
+	padding: 0 1em;
+	color: #ce7f00;
+	border-left: .25em solid #7f4800;
+	margin: 0;
+}
+a:link, a:visited {
+	color: #d04b25;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.page-body {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.5;
+	color: #ffb000;
+	font-family: "PT Mono", "Courier New", "Lucida Console", monospace;
+	font-size: 16px;
+	line-height: 1.5;
+	word-wrap: break-word;
+	max-width: 800px;
+	margin: auto;
+}
+.parent {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 10px;
+	max-width: 800px;
+	margin: auto;
+} 
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; } 
+.splash {align-text: center; margin: auto; 	text-decoration: none;}
+a:hover.splash {align-text: center; margin: auto; 	text-decoration: none;}
+.name {
+	color: #df7e00;
+	font-size: 2em;
+	font-weight: 600;
+}
