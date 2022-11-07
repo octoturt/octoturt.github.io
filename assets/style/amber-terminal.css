@@ -11,16 +11,22 @@ body{
 	box-sizing: border-box;
 	margin: 0 auto;
 	padding: 28px;
-	background-color: #190d07;
+	background-color: black;
 }
 p {
 	margin-top: 0;
 	margin-bottom: 10px;
 }
+
 img {
 	max-width: 100%;
 	box-sizing: initial;
+	top: 50%;
+	position: relative;
+	transform: translateY(-50%);
+	border-radius: 15px;
 }
+
 blockquote{
 	padding: 0 1em;
 	color: #ce7f00;
@@ -55,9 +61,20 @@ a:hover {
 	grid-column-gap: 10px;
 	max-width: 800px;
 	margin: auto;
+	background-color: #190d07;
+	border-radius: 15px;
+	padding: 5px;
 } 
 
-.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div1 {
+	grid-area: 1 / 1 / 2 / 2;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	background: url('/assets/images/octobg.svg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .div2 { grid-area: 1 / 2 / 2 / 3; } 
 .splash {align-text: center; margin: auto; 	text-decoration: none;}
 a:hover.splash {align-text: center; margin: auto; 	text-decoration: none;}

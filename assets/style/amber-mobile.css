@@ -1,14 +1,18 @@
 .parent {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: 1fr;
 	grid-column-gap: 0px;
 	grid-row-gap: 10px; 
-	max-width: 800px;
+	max-width: 400px;
 	margin: auto;
 } 
 
-.div1 { grid-area: 1 / 1 / 2 / 2; margin: auto;}
+.div1 {
+	grid-area: 1 / 1 / 2 / 2; 
+	max-height: 350px;
+}
+	
 .div2 { grid-area: 2 / 1 / 3 / 2; } 
 
 .icon {
