@@ -98,3 +98,11 @@ a:hover.splash {align-text: center; margin: auto; 	text-decoration: none;}
 .feed {
 	font-family: fontello;
 }
+
+.splash {
+	background-image: url('/assets/style/ext.svg');
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: 0.857em;
+	padding-right: 1em;
+}
