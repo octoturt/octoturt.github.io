@@ -1,12 +1,14 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg">
-<metadata>Copyright (C) 2022 by original authors @ fontello.com</metadata>
+<metadata>Copyright (C) 2024 by original authors @ fontello.com</metadata>
 <defs>
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
-<glyph glyph-name="rss-alt" unicode="&#xe800;" d="M1000 761v-824q0-36-26-62t-62-26h-824q-36 0-62 26t-26 62v824q0 36 26 62t62 26h824q36 0 62-26t26-62z m-283-765h136q0 143-56 274t-150 226-226 150-274 56v-135q154 0 286-76t208-208 76-287z m-240 0h136q0 126-62 234t-170 170-234 62v-135q136 0 233-97 97-95 97-234z m-153 88q0 37-26 63t-63 26q-36 0-62-26t-26-63q0-36 26-62t62-26q37 0 63 26t26 62z" horiz-adv-x="1000" />
+<glyph glyph-name="rss-squared" unicode="&#xe800;" d="M286 136q0 29-21 50t-51 21-50-21-21-50 21-51 50-21 51 21 21 51z m196-53q-8 130-99 222t-221 98q-8 1-14-5t-5-13v-71q0-7 5-12t12-6q86-6 147-68t67-147q1-7 6-12t12-5h72q7 0 13 6t5 13z m214 0q-3 86-31 166t-78 145-115 114-145 78-166 31q-7 1-13-5-5-5-5-13v-71q0-7 5-12t12-6q114-4 211-62t156-155 62-211q0-8 5-13t13-5h71q7 0 13 6 6 5 5 13z m161 535v-536q0-66-47-113t-114-48h-535q-67 0-114 48t-47 113v536q0 66 47 113t114 48h535q67 0 114-48t47-113z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="qrcode" unicode="&#xf143;" d="M214 207v-71h-71v71h71z m0 429v-72h-71v72h71z m429 0v-72h-72v72h72z m-572-571h215v214h-215v-214z m0 428h215v214h-215v-214z m429 0h214v214h-214v-214z m-143-143v-357h-357v357h357z m286-286v-71h-72v71h72z m143 0v-71h-72v71h72z m0 286v-214h-215v71h-71v-214h-71v357h214v-71h71v71h72z m-429 429v-358h-357v358h357z m429 0v-358h-357v358h357z" horiz-adv-x="785.7" />
 </font>
 </defs>
 </svg>
