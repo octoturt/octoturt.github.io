@@ -65,6 +65,7 @@ a:hover {
 	max-width: 800px;
 	margin: auto;
 }
+
 .parent {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -77,6 +78,19 @@ a:hover {
 	padding: 5px;
 } 
 
+.unicolumn {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: auto;
+	background-color: #190d07;
+	border-radius: 15px;
+	padding: 5px;
+} 
+
+
 .div1 {
 	grid-area: 1 / 1 / 2 / 2;
 	background-color: rgba(0,0,0,0.5);
@@ -84,6 +98,19 @@ a:hover {
 	background: url('/assets/images/octobg.svg');
 	background-repeat: no-repeat;
     background-size: cover;
+}
+
+.qrbg {
+	grid-area: 1 / 1 / 2 / 2;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	min-height: 50vh;
+}
+
+.qrcode {
+	max-height: 50vh;
+	margin: auto;
+	display:block;
 }
 
 .div3 {
