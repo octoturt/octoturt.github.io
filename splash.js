@@ -54,7 +54,11 @@ const allSplashes = [
 	["Protect Trans Kids",
 		"https://www.thetrevorproject.org/"],
 	["&aelig;&ndash;&Dagger;&aring;&shy;&mdash;&aring;&OElig;&ndash;&atilde;&lsquo;",
-		"https://en.wikipedia.org/wiki/Mojibake"]
+		"https://en.wikipedia.org/wiki/Mojibake"],
+	["<img style='border-radius: 0px;' src='assets/images/frontpag.gif' >",
+		"https://web.archive.org/web/19991013012946id_/http://microsoft.com/frontpage/"],
+	["<img style='border-radius: 0px;' src='assets/images/iexplore.gif' alt='Download Internet Explorer Now!'>",
+		"https://web.archive.org/web/20020603234352id_/http://www.microsoft.com/downloads/searchdl.asp"]
 ]
 
 document.onload = setSplash();
